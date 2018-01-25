@@ -5,7 +5,7 @@ import org.junit.Assert.assertFalse
 import org.junit.Test
 import java.util.*
 
-class N28ForLoopKtTest {
+class testIterateOverTheNewYearN28ForLoopKtTest {
     /* Month numbering starts with 0 (0-Jan, 1-Feb, ... 11-Dec) */
 
     @Test fun testIterateOverDateRange() {

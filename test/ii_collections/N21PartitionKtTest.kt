@@ -8,6 +8,7 @@ import org.junit.Test
 
 class N21PartitionKtTest {
     @Test fun testGetCustomersWhoHaveMoreUndeliveredOrdersThanDelivered() {
+        println(shop.getCustomersWithMoreUndeliveredOrdersThanDelivered()) //TODO
         assertEquals(setOf(customers[reka]), shop.getCustomersWithMoreUndeliveredOrdersThanDelivered())
     }
 }
